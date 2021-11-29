@@ -30,7 +30,7 @@ interface MonthAvailabilityItem {
   available: boolean;
 }
 
-interface Appointment {
+interface Appointments {
   id: string;
   date: string;
   hourFormatted: string;
@@ -51,7 +51,7 @@ const Dashboard: React.FC = () => {
     MonthAvailabilityItem[]
   >([]);
 
-  const [appointments, setAppointments] = useState<Appointment[]>([]);
+  const [appointments, setAppointments] = useState<Appointments[]>([]);
 
   const handleDateChange = useCallback((day: Date, modifiers: DayModifiers) => {
     if (modifiers.available && !modifiers.disabled) {
@@ -78,7 +78,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     api
-      .get<Appointment[]>('/appointments/me', {
+      .get<Appointments[]>('/appointments/me', {
         params: {
           year: selectedDate.getFullYear(),
           month: selectedDate.getMonth() + 1,
