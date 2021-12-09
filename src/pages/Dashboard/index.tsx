@@ -20,6 +20,7 @@ import {
   Section,
   Appointment,
   Calendar,
+  Logo,
 } from './styles';
 
 import logoImg from '../../assets/logo-web.png';
@@ -144,7 +145,7 @@ const Dashboard: React.FC = () => {
     <Container>
       <Header>
         <HeaderContent>
-         <img src={logoImg} alt="MyBarber" />
+         <Logo src={logoImg} alt="MyBarber" />
           <Profile>
             {user.avatar_url ? <img src={user.avatar_url} alt={user.name}/> : <img src={DefaultUserImg} alt={user.name}/>}
             <div>
