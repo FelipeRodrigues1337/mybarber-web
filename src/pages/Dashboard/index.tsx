@@ -175,11 +175,11 @@ const Dashboard: React.FC = () => {
             <NextAppointment>
               <strong>Agendamento a seguir</strong>
               <div>
-                <img
-                  src={nextAppointment.user.avatar_url}
-                  alt={nextAppointment.user.name}
-                />
-
+              {
+              nextAppointment.user.avatar_url ? 
+              <img src={nextAppointment.user.avatar_url} alt={nextAppointment.user.name}/> : 
+              <img src={DefaultUserImg} alt={nextAppointment.user.name}/>
+              }
                 <strong>{nextAppointment.user.name}</strong>
                 <span>
                   <FiClock />
@@ -204,11 +204,11 @@ const Dashboard: React.FC = () => {
                 </span>
 
                 <div>
-                  <img
-                    src={appointment.user.avatar_url}
-                    alt={appointment.user.name}
-                  />
-
+                {
+                  appointment.user.avatar_url ? 
+                  <img src={appointment.user.avatar_url} alt={appointment.user.name}/> : 
+                  <img src={DefaultUserImg} alt={appointment.user.name}/>
+                }
                   <strong>{appointment.user.name}</strong>
                 </div>
               </Appointment>
@@ -230,10 +230,11 @@ const Dashboard: React.FC = () => {
                 </span>
 
                 <div>
-                  <img
-                    src={appointment.user.avatar_url}
-                    alt={appointment.user.name}
-                  />
+                {
+                  appointment.user.avatar_url ? 
+                  <img src={appointment.user.avatar_url} alt={appointment.user.name}/> : 
+                  <img src={DefaultUserImg} alt={appointment.user.name}/>
+                }
 
                   <strong>{appointment.user.name}</strong>
                 </div>

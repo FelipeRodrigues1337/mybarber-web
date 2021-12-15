@@ -240,7 +240,7 @@ export const Appointment = styled.div`
       width: 56px;
       height: 56px;
       border-radius: 50%;
-      background: #ff9000;
+      background: #693AB6;
     }
 
     strong {
