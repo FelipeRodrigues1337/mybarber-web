@@ -10,4 +10,5 @@ O objetivo desta página web é disponibilizar um meio para o  prestador de serv
 - O usuário pode listar seus agendamentos de um dia específico;
 - O usuário pode listar seus agendamentos de um mês específico;
 - O usuário pode atualizar suas informações de perfil;
+- O usuário pode cadastrar uma conta, realizar login e alterar senha;
 - O usuário pode recuperar a senha através do email;
