@@ -6,7 +6,7 @@ O objetivo desta página web é disponibilizar um meio para o  prestador de serv
 
 # Painel do prestador
 
-- O usuário pode acompanhar seus horários de serviço do dia;
+- O usuário pode acompanhar seus horários de serviço do dia selecionado;
 - O usuário pode listar seus agendamentos de um dia específico;
 - O usuário pode listar seus agendamentos de um mês específico;
 - O usuário pode atualizar suas informações de perfil;
