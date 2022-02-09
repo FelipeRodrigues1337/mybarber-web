@@ -6,7 +6,7 @@ O objetivo desta página web é disponibilizar um meio para o  prestador de serv
 # Instalação do projeto
 
 **Versões**
-- node -v: v14..15.4;
+- node -v: v14.15.4;
 - yarn -v: 1.22.5;
 
 **Instalar dependências**
