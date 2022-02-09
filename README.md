@@ -3,6 +3,15 @@ Este projeto foi utilizado como front-end em meu trabalho de conclusão de curso
 
 O objetivo desta página web é disponibilizar um meio para o  prestador de serviço poder controlar os agendamentos de horários de serviço realizados com o mesmo.
 
+# Instalação do projeto
+
+**Versões**
+- node -v: v14..15.4;
+- yarn -v: 1.22.5;
+
+**Instalar dependências**
+- yarn
+- rodar projeto: yarn run
 
 # Painel do prestador
 
